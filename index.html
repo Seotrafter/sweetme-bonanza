@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Nighty Knight: Frontier War TD</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <a href="/"><img src="./img/logo.png" alt="" /></a>
+          </div>
+          <div class="menu">
+            <nav>
+              <a href="/">Ana Sayfa</a
+              ><a href="/#about">Oyun hakkında</a
+              ><a href="/#features">Oynanış </a
+              ><a href="/#media">Medya</a
+              ><a href="/#game">Oyun özellikleri</a>
+
+              <a href="/#pay">İndir</a>
+            </nav>
+          </div>
+          <a href="#" class="button btn-hed" id="open-video">İzle</a>
+
+          <!-- Модальне вікно -->
+          <div id="video-modal" class="modal">
+            <div class="modal-content">
+              <span class="close-btn" id="close-video">&times;</span>
+              <iframe
+                id="video-iframe"
+                width="854"
+                height="480"
+                src=""
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>
+            <span class="color"
+              >Gece Şövalyesi: Frontier War TD - Krallığı karanlık güçlere karşı
+              savun!</span
+            >
+          </h1>
+          <p>
+            Nighty Knight'ta: Frontier War TD'de, karanlık güçlere karşı
+            destansı bir savaşta krallığı için savaşan cesur bir şövalye rolünü
+            üstleniyorsunuz. Akıllıca kuleler yerleştirerek savunmanızı kurun ve
+            topraklarınızı düşmanların istilasından koruyun!
+          </p>
+          <div class="hero-button">
+            <a
+              class="button"
+              href="https://play.google.com/store/apps/details?id=com.ezg011.duskbound.tower.defend.strategy.td.game"
+              ><img src="./img/google.png" alt="" /> Google Play
+            </a>
+            <a
+              class="button"
+              href="https://apps.apple.com/gb/app/nighty-knight-frontier-war-td/id6740115606?uo=2"
+              ><img src="./img/App_Store_(iOS).svg.png" alt="" /> App Store
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="container">
+          <div class="container-about">
+            <div class="about-text">
+              <h2>Nighty Knight Hakkında Sınır Savaşı TD</h2>
+              <p>
+                Nighty Knight: Frontier War TD, krallığınızı karanlık güçlerin
+                ortak saldırısına karşı savunmanız gereken bir Kule Savunma
+                strateji oyunudur. Ancak, bu kolay bir savaş değil! Düşmanlara
+                direnmek için ışık güçlerini kontrol ederek çeşitli kuleler
+                planlamanız ve inşa etmeniz gerekecek. Her kulenin seçimi ve
+                haritadaki konumu savaşın gidişatını değiştirebilir.
+              </p>
+            </div>
+            <div class="about-img">
+              <img src="./img/about.jpg" alt="" />
+            </div>
+            <p>
+              Oyun boyunca, sıradan canavarlardan büyük patronlara kadar birçok
+              düşmanla karşılaşacaksınız ve her birinin kendine has özellikleri
+              var, bu yüzden onlarla savaşmak için doğru stratejileri seçmek
+              önemlidir.
+            </p>
+          </div>
+          <div class="container-feat">
+            <h2>Oyunun ana unsurları:</h2>
+            <div class="feat-items">
+              <div class="feat-item">
+                <h3>Kuleler:</h3>
+                <p>
+                  Oyunda farklı türde kuleler mevcuttur - atış kuleleri, sihirli
+                  kuleler, dondurucu kuleler ve diğerleri. Her kulenin kendi
+                  avantajları ve sınırlamaları vardır.
+                </p>
+              </div>
+              <div class="feat-item">
+                <h3>Düşmanlar:</h3>
+                <p>
+                  Orklar, iblisler, ölüler ve savaşmanız gereken diğer birçok
+                  canavarı içeren karanlık güçler.
+                </p>
+              </div>
+              <div class="feat-item">
+                <h3>Patronlar:</h3>
+                <p>
+                  Her seviyede görevinizi çok daha zor hale getiren benzersiz
+                  patronlar sizi bekliyor.
+                </p>
+              </div>
+              <div class="feat-item">
+                <h3>Çeşitli haritalar:</h3>
+                <p>
+                  Stratejiniz için yeni zorluklar yaratan farklı manzaralara
+                  sahip birden fazla harita.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="gameplay">
+        <div class="container">
+          <h2 class="section-title">Gece Şövalyesi: Frontier War TD Oynanış</h2>
+          <p class="description">
+            Nighty Knight: Frontier War TD her seviyede doğru planlama ve
+            stratejik düşünmeyi gerektirir. Amacınız, krallığınızı düşman
+            dalgalarına karşı savunmak için kuleleri doğru seçmek ve
+            yerleştirmektir.
+          </p>
+          <div class="gameplay-mechanics">
+            <div class="mechanic">
+              <h3>Savunma Planlaması</h3>
+              <p>
+                Düşman dalgası başlamadan önce hangi kuleleri inşa edeceğinizi
+                seçmelisiniz. Her kule farklı özelliklere ve maliyetlere sahip
+                olduğu için seçiminiz dikkatli olmalıdır.
+              </p>
+            </div>
+            <div class="mechanic">
+              <h3>Adım Adım Dalgalar</h3>
+              <p>
+                Her seviye birkaç düşman dalgasından oluşur. Yeni bir dalga
+                geldikçe düşmanlar daha güçlü olur, bu yüzden savunma
+                stratejinizi güncellemeniz gerekecektir.
+              </p>
+            </div>
+            <div class="mechanic">
+              <h3>Kaynak Toplama</h3>
+              <p>
+                Düşmanları yok ederek kaynaklar kazanırsınız, bu kaynakları yeni
+                kuleler inşa etmek veya mevcut kulelerinizi güçlendirmek için
+                kullanabilirsiniz.
+              </p>
+            </div>
+            <div class="mechanic">
+              <h3>Yükseltme ve İyileştirme</h3>
+              <p>
+                Kazandığınız kaynakları kulelerinizi güçlendirmek ve daha güçlü
+                düşmanlara karşı daha etkili bir savunma sağlamak için
+                kullanabilirsiniz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="media" class="media">
+        <div class="container">
+          <img src="./img/1.jpg" alt="" class="media-img" />
+          <img src="./img/2.jpg" alt="" class="media-img" />
+          <img src="./img/3.jpg" alt="" class="media-img" />
+          <img src="./img/4.jpg" alt="" class="media-img" />
+        </div>
+      </section>
+
+      <section id="game" class="gameplay-enhanced">
+        <div class="container">
+          <h2 class="section-title">Ekstra Oynanış Özellikleri</h2>
+          <p class="description">
+            Nighty Knight: Frontier War TD'de, oyunun her seviyesinde
+            stratejinizi geliştirebilir ve farklı taktiklerle düşman dalgalarını
+            engelleyebilirsiniz. Oyunun bazı özel mekanikleri ve özellikleriyle
+            daha fazla zorluk ve eğlence katabilirsiniz!
+          </p>
+          <div class="gameplay-features">
+            <div class="feature">
+              <h3>Çeşitli Kule Türleri</h3>
+              <p>
+                Farklı kule türleri ve her birinin kendine has yetenekleriyle
+                düşmanları etkili bir şekilde yok edebilirsiniz.
+              </p>
+            </div>
+            <div class="feature">
+              <h3>Zorlu Düşmanlar</h3>
+              <p>
+                Her seviyede yeni ve zorlu düşmanlar ortaya çıkar, bu yüzden
+                savunmanızı sürekli olarak geliştirmek önemlidir.
+              </p>
+            </div>
+            <div class="feature">
+              <h3>İleri Seviye Yükseltmeler</h3>
+              <p>
+                Kulelerinizi, daha yüksek seviyelerde güçlü düşmanlara karşı
+                daha etkili olabilmesi için yükseltebilirsiniz.
+              </p>
+            </div>
+            <div class="feature">
+              <h3>Seviye Atlamalar</h3>
+              <p>
+                Seviyeleri tamamladıkça yeni haritalara geçebilir ve daha zorlu
+                mücadelelere girebilirsiniz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pay" class="pay">
+        <div class="container">
+          <div class="pay-container">
+            <div class="pay-text">
+              <h2>Şimdi oyna:</h2>
+              <div class="hero-button">
+                <a
+                  class="button"
+                  href="https://play.google.com/store/apps/details?id=com.ezg011.duskbound.tower.defend.strategy.td.game"
+                  ><img src="./img/google.png" alt="" /> Google Play
+                </a>
+                <a
+                  class="button"
+                  href="https://apps.apple.com/gb/app/nighty-knight-frontier-war-td/id6740115606?uo=2"
+                  ><img src="./img/App_Store_(iOS).svg.png" alt="" /> App Store
+                </a>
+              </div>
+            </div>
+            <div class="pay-video">
+              <iframe
+                width="854"
+                height="480"
+                src="https://www.youtube.com/embed/7ZMCJhP_7U8"
+                title="Trailer Nighty Knight: Frontier War TD Official"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <a href="/"><img src="./img/logo.png" alt="" /></a>
+          </div>
+          <div class="menu">
+            <nav>
+              <a href="/">Ana Sayfa</a
+              ><a href="/#about">Oyun hakkında</a
+              ><a href="/#features">Oynanış </a
+              ><a href="/#media">Medya</a
+              ><a href="/#game">Oyun özellikleri</a>
+
+              <a href="/#pay">İndir</a>
+            </nav>
+          </div>
+        </div>
+        <div class="container-footer">
+          <p>© 2025 sweetme-bonanza.com. Tüm hakları saklıdır.</p>
+          <div class="policy-menu">
+            <nav>
+              <a href="/privacy.html">Gizlilik Politikası </a
+              ><a href="/terms.html">Kullanım Koşulları</a
+              ><a href="/cookie.html">Çerez Politikası</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="cookie-banner">
+      <p>
+        Bu web sitesi çerezler kullanmaktadır. Deneyiminizi geliştirmek ve
+        kişiselleştirilmiş içerik sağlamak için çerezleri kullanıyoruz. Çerez
+        kullanımını kabul ediyorsanız "Kabul Et" butonuna tıklayın. Ayrıntılar
+        için
+        <a href="/privacy.html" style="color: #4caf50">gizlilik politikamıza</a>
+        göz atabilirsiniz.
+      </p>
+      <button id="accept-button">Kabul Et</button>
+      <button id="decline-button" class="decline">Reddet</button>
+    </div>
+
+    <script>
+      // Çerez onay durumu kontrol etme
+      window.onload = function () {
+        if (!localStorage.getItem("cookiesAccepted")) {
+          document.getElementById("cookie-banner").style.display = "block";
+        }
+      };
+
+      // Kabul et butonuna tıklandığında çerezleri kabul et
+      document.getElementById("accept-button").onclick = function () {
+        localStorage.setItem("cookiesAccepted", "true");
+        document.getElementById("cookie-banner").style.display = "none";
+      };
+
+      // Reddet butonuna tıklandığında çerezleri reddet
+      document.getElementById("decline-button").onclick = function () {
+        localStorage.setItem("cookiesAccepted", "false");
+        document.getElementById("cookie-banner").style.display = "none";
+      };
+    </script>
+    <script>
+      // Отримуємо елементи
+      const openButton = document.getElementById("open-video"); // Кнопка для відкриття відео
+      const modal = document.getElementById("video-modal"); // Модальне вікно
+      const closeButton = document.getElementById("close-video"); // Кнопка для закриття модального вікна
+      const iframe = document.getElementById("video-iframe"); // Відео iframe
+
+      // Функція для відкриття модального вікна
+      openButton.addEventListener("click", function (e) {
+        e.preventDefault(); // Запобігаємо стандартній дії кнопки (перехід по посиланню)
+        modal.style.display = "block"; // Показуємо модальне вікно
+        iframe.src = "https://www.youtube.com/embed/7ZMCJhP_7U8"; // Встановлюємо URL відео
+      });
+
+      // Функція для закриття модального вікна
+      closeButton.addEventListener("click", function () {
+        modal.style.display = "none"; // Приховуємо модальне вікно
+        iframe.src = ""; // Очищаємо URL відео, щоб воно припинило відтворюватись
+      });
+
+      // Закриття модального вікна при натисканні за його межами
+      window.addEventListener("click", function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none"; // Приховуємо модальне вікно
+          iframe.src = ""; // Очищаємо URL відео
+        }
+      });
+    </script>
+  </body>
+</html>
